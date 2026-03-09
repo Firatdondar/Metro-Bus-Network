@@ -1,0 +1,22 @@
+ID,Adsoyad,Baslangic,Hedef
+1,Ahmet Elicin,1,61
+2,Gorkem Yetkiner,4,3
+3,Emir Tunceri,65,72
+4,Yigit Akyuz,37,72
+5,Ada Kurutluoglu,76,74
+6,Irem Karabulut,114,72
+7,Efe Demirel,94,26
+8,Serhan Oztuna,15,25
+9,Berk Evliyaoglu,34,15
+10,Irem Dusenkalkar,15,24
+11,Sinem Daglaroglu,111,76
+12,Cagan Babaoglu,52,74
+13,Barlas Adivar,4,67
+14,Berk Tasli,19,5
+15,Ada Sarioglu,42,51
+16,Ebru Sozeri,58,112
+17,Ogun Sezek,79,71
+18,Onur Adal,93,46
+19,Ece Ozkara,50,51
+20,Burcu Evliyaoglu,58,19
+21,Atakan Baykam,10,11

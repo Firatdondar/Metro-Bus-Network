@@ -1,0 +1,10 @@
+# Compiled files
+*.o
+*.exe
+*.out
+
+# VS Code config
+.vscode/
+
+# Data
+# Sadece gerekiyorsa verileri takip et, genelde txt dosyaları repoda kalmalı

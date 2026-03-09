@@ -1,0 +1,15 @@
+HatNo,HatAd,Durak1,Durak2,Durak3,Durak4,Durak5,Durak6,Durak7,Durak8,Durak9,Durak10,Durak11,Durak12,Durak13,Durak14,Durak15,Durak16,Durak17
+90,Osmanbey,Bamyasuyu,Yeniþehir,UçakSavar,Karayollarý,Sýrrýn,Cumhuriyet,ÞairNabi,Teknokent,Ulubað,Çamlýk,Hipodrum,Gülveren,Osmanbey,,,,
+63,Balýklýgöl,Emirgan,RabiaMeydaný,Karakoyun,SamsatMeydaný,UluCami,SakýpýnKosku,MozaikMuzesi,Kýzýlkoyun,Haþimiye,YýldýzMeydaný,Sarayönü,,,,,,
+33,AkabeToki,Emirgan,Ýpekyol,MehmetAkif,SaðlýkMeslek,Doðumevi,Piazza,BalýklýgölDH,BuharaKampüsü,ÞahinTepe,TokiPtt,Karagül,,,,,,
+55,Zeytindalý,Bamyasuyu,Yeniþehir,UçakSavar,Karayollarý,MehmetAkif,GapVadisi,Zeytindalý,,,,,,,,,,
+73,Karaköprü,Emirgan,CevheriHalýSaha,DevletSu,MilliEðitim,HaliliyeBelediyesi,Refahiye,Jandarma,GaffarOkan,FuarMerkezi,KykOgrenci,Ormanyolu,BuluntuHoca,,,,,
+61,Esentepe,500Yataklý,Esentepe,Otogar,SakaryaCad,AnadoluLisesi,Kasaptaþý,ValiKonaðý,HaliliyeBelediyesi,DevletSu,RabiaMeydaný,Beykapýsý,EtBalýkKurumu,EyyüpPeygamber,ÝmamKeskin,SüleymanÞah,Yenice,EyyübiyeHastane
+12,Çankaya,Aktarma,Emirgan,CevheriHalýSaha,DevletSu,Emniyet,ZiraatBankasý,ArapHoca,Bankalar,Þanmed,YunusEmre,Ulubatlý,Esentepe,,,,,
+43,Eyyübiye,Aktarma,RabiaMeydaný,Beykapýsý,ArapMeydaný,KýrýmBulgur,EyyüpPeygamber,TMO,EyyübiyeKampüsü,Tedaþ,AkçakaleCad,Amatem,,,,,,
+71,Güzelþehir,Emirgan,CevheriHalýSaha,DevletSu,MilliEðitim,ValiKonaðý,Kasaptaþý,AnadoluLisesi,SakaryaCad,Otogar,FatmaZehra,Güzelþehir,DoðuKent,ÇokProgamlýLisesi,,,,
+26,SalihÖzcan,HaliliyeCami,SalihÖzcan,ÇarþambaPazarý,Badem,Mimoza,PalmiyeSitesi,MaþukKavþaðý,Refahiye,Otogar,SakaryaCad,Esentepe,Yeniþehir,Veysel Karani,Tedaþ,Þutim,Belsan,
+76,Maþuk,Bamyasuyu,CevheriHalýSaha,DevletSu,MilliEðitim,HaliliyeBelediyesi,Refahiye,MaþukKavþaðý,Ataþehir,TenisDünyasý,BeyazýtBulvarý,AcilÇaðrý,DoðaMarket,Seyrantepe,,,,
+81,AkabeSýrrýn,AkabeSaðlýk,Karagül,TokiPtt,ÞahinTepe,BuharaKampüsü,BalýklýgölDH,Piazza,Doðumevi,SaðlýkMeslek,MehmetAkif,YeniþehirTelekom,UçakSavar,Karayollarý,HacýBektaþ,TurgutÖzal,Osmangazi,
+21,Baðlarbaþý,Aktarma,Emirgan,Ýpekyol,Þehitlik,Ýtfaiye,Açýksu,AhmetYesevi,Gelincik,Sultan,Kaktüs,,,,,,,
+23,SSK,Aktarma,Emirgan,Ýpekyol,SaðlýkMeslek,Doðumevi,Piazza,SSKCaddesi,Beyzade,KanuniSultan,Kasýmpatý,GalipKuþcu,HuzurEvi,,,,,
