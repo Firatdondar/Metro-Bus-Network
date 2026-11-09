@@ -1,9 +1,3 @@
-### 3. Refactor Edilmiş Kod Yapısı (Başlangıç)
-
-Tüm değişken isimlerini İngilizceye çevirdim ve `include` yollarını düzelttim.
-
-**include/transport_system.h**
-```cpp
 #ifndef TRANSPORT_SYSTEM_H
 #define TRANSPORT_SYSTEM_H
 
@@ -20,22 +14,47 @@ Tüm değişken isimlerini İngilizceye çevirdim ve `include` yollarını düze
 
 class Stop {
 public:
-    int stop_id;
-    std::string stop_name;
-    std::set<int> lines_passing_through;
-    Stop(int id, std::string name) : stop_id(id), stop_name(name) {}
+    int id;
+    std::string name;
+    std::set<int> passingLines;
+
+    Stop(int id = 0, const std::string& name = "") : id(id), name(name) {}
+};
+
+class Line {
+public:
+    int number;
+    std::string name;
+    std::vector<int> stops;
+
+    Line(int no = 0, const std::string& name = "") : number(no), name(name) {}
 };
 
 class TransportSystem {
 private:
-    // Kendi veri yapılarını buraya taşıyacaksın
+    std::map<int, Stop> stops;
+    std::map<std::string, int> stopNameToId;
+    std::map<int, Line> lines;
+    std::map<int, std::map<int, int>> distanceGraph;
+    std::map<int, int> lineUsageCounts;
+
+    static std::string trim(const std::string& str);
+
 public:
-    TransportSystem();
-    ~TransportSystem();
-    
+    TransportSystem() = default;
+    ~TransportSystem() = default;
+
     void createGraph(const std::string& stopsFile, const std::string& distancesFile, const std::string& linesFile);
+    void searchStop(int stopId);
+    std::pair<int, std::vector<int>> calculateShortestPath(int startStopId, int targetStopId);
+    std::vector<std::pair<int, std::vector<int>>> getLinesAndTransfers(const std::vector<int>& path);
+    void printJourneyInfo(int passengerId, const std::string& fullName, int startId, int targetId, int totalDistance, const std::vector<int>& path);
+    void planJourneys(const std::string& passengerListFile);
+    void detectTransferPoints();
+    void printMostUsedLines();
+    void listAllLines();
+    void displayStopsOnLine(int lineNumber);
     void showMenu();
-    // Diğer fonksiyonlarını buraya ekle
 };
 
-#endif
+#endif // TRANSPORT_SYSTEM_H
